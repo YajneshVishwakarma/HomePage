@@ -3,3 +3,130 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+input
+{
+    outline: none;
+}
+
+section
+{
+    border: 2px solid black;
+    height: 47.5rem;
+    width: auto;
+    color: rgb(42, 42, 42);
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    background-image: url(./daniel-storek-JM-qKEd1GMI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+#title p
+{
+    padding-right: 1rem;
+}
+
+.navbar
+{
+    display: flex;
+    padding: 1.5rem;
+    /* border: 2px solid black; */
+}
+
+.firstNav , .secNav{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    /* border: 2px solid black; */
+}
+
+.firstNav ul, .secNav ul{
+    display: flex;
+    list-style: none;
+    /* border: 2px solid black; */
+}
+
+ul li{
+    padding-left: 1rem ;
+    padding-right: 1rem ;
+    /* border: 2px solid black; */
+}
+
+.secNav{
+    margin-left: auto;
+}
+
+.sub-but
+{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    right: 1.5rem;
+}
+
+input
+{
+    height: 1.5rem;
+    width: 15.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+.underline
+{
+    height: 0.2rem;
+    width: 15.8rem;
+    background-color: black;
+    position: absolute;
+    top: 4.5rem;
+    left: 67rem;
+}
+
+a{
+    color: black;
+}
+
+.quote
+{
+    height: 30rem;
+    width: 30rem;
+    font-size: 3rem;
+    position: relative;
+    top: 8rem;
+    left: 4rem;
+}
+
+.banner
+{
+    margin-top: 4rem;
+    height: 4rem;
+    width: 20rem;
+    font-size: large;
+    color: black;
+    border: 3px solid black;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.banner:hover
+{
+    color: white;
+    background-color: black;
+}
+
+a:hover
+{
+    text-decoration: underline 4px rgb(28, 28, 187);
+}
+
+li{
+    font-size: 20px;
+}
