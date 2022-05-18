@@ -15,10 +15,10 @@ section
     height: 47.5rem;
     width: auto;
     color: rgb(42, 42, 42);
-    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     background-image: url(./daniel-storek-JM-qKEd1GMI-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
 }
 
@@ -35,14 +35,14 @@ a{
 .navbar
 {
     display: flex;
-    padding: 1.5rem;
+    padding: 10px;
     /* border: 2px solid black; */
 }
 
 .firstNav , .secNav{
     display: flex;
     align-items: center;
-    font-size: 1rem;
+    font-size: .7rem;
     font-weight: bolder;
     /* border: 2px solid black; */
 }
@@ -82,12 +82,12 @@ input
 
 .underline
 {
-    height: 0.2rem;
+    height: 0.1rem;
     width: 15.8rem;
     background-color: black;
     position: absolute;
-    top: 4.5rem;
-    left: 67rem;
+    top: 3.5rem;
+    left: 68.8rem;
 }
 
 a{
@@ -99,16 +99,26 @@ a{
     height: 30rem;
     width: 30rem;
     font-size: 3rem;
+    color: #00178b;
     position: relative;
     top: 8rem;
     left: 4rem;
+}
+
+.para
+{
+    position: relative;
+    top: -40px;
+    font-size: .9rem;
+    color: black;
+    padding-top: 55px;
 }
 
 .banner
 {
     margin-top: 4rem;
     height: 4rem;
-    width: 20rem;
+    width: 16rem;
     font-size: large;
     color: black;
     border: 3px solid black;
@@ -124,9 +134,11 @@ a{
 
 a:hover
 {
-    text-decoration: underline 4px rgb(28, 28, 187);
+    text-decoration: underline .18rem rgb(28, 28, 187) ;
 }
 
+
 li{
-    font-size: 20px;
+    font-size: 15px;
 }
+
