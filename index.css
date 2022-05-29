@@ -87,7 +87,7 @@ input
     background-color: black;
     position: absolute;
     top: 3.5rem;
-    left: 68.8rem;
+    left: 68.9rem;
 }
 
 a{
@@ -136,12 +136,23 @@ a{
     
 }
 
-.firstNav li:hover 
+.firstNav li:hover>a
 {
+    color: white;
+}
 
+#blank:hover
+{
+    color: black;
+    background-color: transparent;
+}
+
+.firstNav li:hover
+{
     background-color: rgb(48, 48, 66);
     color: white;
     border-radius: 10px;
+    
 }
 
 
@@ -149,3 +160,12 @@ li{
     font-size: 15px;
 }
 
+.hov
+{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    top: 3.5rem;
+    border: 2px solid black;
+    height: 25rem;
+    width: 94.5rem;
+}
